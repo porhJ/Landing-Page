@@ -129,3 +129,21 @@ a {
 .card .text {
     text-align: center;
 }
+
+.quote {
+    background-color: #E5e7eb;
+    padding: 40px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .content {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .speaker {
+    font-weight: bold;
+    margin-left: auto;
+    font-size: larger;
+}
