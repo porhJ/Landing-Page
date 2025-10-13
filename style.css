@@ -68,7 +68,7 @@ a {
     padding: 50px;
 }
 
-.text button {
+button {
     border-radius: 7px;
     padding: 5px 15px;
     background-color: #3882f6;
@@ -83,7 +83,7 @@ a {
     padding-top: 40px;
 }
 
-.cta {
+.cta .content {
     background-color: #3882f6;
 }
 
@@ -117,6 +117,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 100px;
 }
 
 .info .content {
@@ -146,4 +147,44 @@ a {
     font-weight: bold;
     margin-left: auto;
     font-size: larger;
+}
+
+.cta {
+    padding: 80px 150px;
+}
+
+.cta .content {
+    padding: 50px 100px;
+    border-radius: 15px;
+    color: white;
+
+}
+
+
+.cta-header {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.cta .detail {
+    font-size: 20px;
+    color: #E5e7eb;
+
+}
+
+.cta button {
+    border: 3px solid white;
+    padding: 0 44px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: large;
 }
